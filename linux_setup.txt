@@ -1,0 +1,81 @@
+Ubuntu store downloads
+
+1. qbittorent 
+2. copyQ
+3. Telegram
+
+------------------------------------------------------------------------------------------
+
+1. Installing chrome
+
+// wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+// sudo dpkg -i google-chrome-stable_current_amd64.deb
+
+https://www.xda-developers.com/how-install-chrome-ubuntu/
+
+------------------------------------------------------------------------------------------
+
+2. Git
+
+// sudo apt-get install git-all
+
+https://github.com/git-guides/install-git
+
+Note: Personal Access token generated
+
+------------------------------------------------------------------------------------------
+
+3. VSCode
+
+// sudo apt install ./<file>.deb
+
+// https://code.visualstudio.com/docs/setup/linux
+File downloaded from link in the above link
+
+------------------------------------------------------------------------------------------
+
+4. NVM (Node Version Manager)
+
+// sudo apt-get update
+//sudo apt install curl
+// curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+
+// nvm install --lts
+
+https://www.geeksforgeeks.org/how-to-install-nvm-on-ubuntu-22-04/
+
+------------------------------------------------------------------------------------------
+
+5. PHP, MySQL, Apache, Wordpress ( and dependencies )
+
+// sudo apt install apache2 \
+                 ghostscript \
+                 libapache2-mod-php \
+                 mysql-server \
+                 php \
+                 php-bcmath \
+                 php-curl \
+                 php-imagick \
+                 php-intl \
+                 php-json \
+                 php-mbstring \
+                 php-mysql \
+                 php-xml \
+                 php-zip
+                 
+
+Note : Database was create by root but previleges not given for the user 'wordpress'. This is was rectified by giving privleges
+
+https://ubuntu.com/tutorials/install-and-configure-wordpress#2-install-dependencies
+
+------------------------------------------------------------------------------------------
+
+6. PHPMyAdmin
+
+// sudo apt install phpmyadmin
+
+Note : This is installed due to trouble connecting wordpress with mysql
+Note : https://askubuntu.com/questions/839505/localhost-phpmyadmin-is-giving-404-error-and-http-localhost-in-thr-url-is-not
+Link to remove 404 error
+
+------------------------------------------------------------------------------------------
